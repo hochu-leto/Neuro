@@ -1,4 +1,4 @@
-# NeuroStartUp
+'''# NeuroStartUp
 
 ![](logo.png)
 
@@ -12,12 +12,13 @@
 Вы можете встроить NeuroStartUp в ваши приложения с помощью следующих сниппетов (кусочков) кода.
 
 JavaScript:
+
 '''javastript
 <script src="https://localhost/neuro.sdk.min.js"></script>
 '''
 
 Java (Maven):
-'''java
+'''Java
 <dependency>
   <groupId>neuro</groupId>
   <artifactId>sdk</artifactId>
@@ -26,7 +27,8 @@ Java (Maven):
 '''
 
 iOS (добавьте код в ваш Podfile):
-'''iOS
+
+'''
 platform :ios, '8.0'
 pod "neuro-ios-sdk"
 '''
